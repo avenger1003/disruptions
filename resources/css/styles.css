@@ -1,0 +1,532 @@
+/*
+* INOKONIQ BUSINESS CLOSINGS STYLESHEET 
+* 
+*/
+
+.day{ float: left; width: 50px; }
+.day input{ width:14px !important; padding: 0; }
+#addBusiness .login-registration #verifier, 
+#addBusiness .login-registration #pass1, 
+#addBusiness .login-registration #pass2, 
+#addBusiness .login-registration #recaptcha_widget_div{  display: inline; }
+
+#legacy-form input#pass2{ float: left !important; }
+
+.manage-business{ margin: 20px 20px 0 0; float: left; }
+#login-business .registration_wrap{ width: 410px; padding:  30px 0; }
+.nobusiness{ margin: 35px 0; }
+
+.login-registration label span, .errormsg{ color:#FF0000; }
+.debug-msg{ display: none; }
+span.more_links{ float: left;height: 100%;margin-left: 15px;width: auto; }
+                   span.more_links a.button-primary{ padding: 10px 15px ; }
+                   
+.login-registration .span.more_links{ margin: o; }
+                   
+#closing_form span.more_links,
+                   #closing_form span.more_links{ margin: 10px 0 0 20px; line-height: 17px;  }
+
+
+/* .more_links a{ padding: 10px; height: 42%;} */
+.more_links a{ padding: 10px; }
+                                       
+#closing_form input.submit-button,
+                   #registration_form input.submit-button{ float: left; height: 37px; }
+                   
+#bd_closings_alerts form{ clear: both; }                   
+/**************************************/
+/*              Registration Styling                              */
+/**************************************/
+.business  .registration_form_wrap{ width: 470px;  }
+.business  .business-desc{   border-bottom: 2px solid #AFAFAF; padding-bottom: 10px;  }
+
+.business   .add-code{ width: 190px; float: left;margin-right: 20px; }
+.business  .login-registration input#add-input{ width: 145px; }
+
+.business  .submit{ border-top: 2px solid #AFAFAF; }
+
+.business .validate .error { right: 210px;  top: -13px;  }
+.business  .add-code  .error { right: 0 !important;  top: 2px !important;  }
+
+#addBusiness #registration_form{ width: auto;  }
+#addBusiness .validate .error{ right: 0px;  }
+.zipDiv .error{ position: relative !important; top: -18px !important; left: 85px; }
+/* #zipcode  input{ position: absolute !important; left: 175px !important; bottom:520px; }
+#loggedin .loggedin{ position: absolute !important; left: 175px !important;  bottom:520px; }*/
+#validateUsername{ padding: 10px 0 0 0; color: #DD0000; }
+
+#addBusiness .indicator-hint{ width: 308px;  }
+
+#businessHoursregi input.check{ padding:0px; }
+
+
+#advancedTime select, 
+                   #advancedTime span{ float: left; }
+/**************************************/
+/*              Detail Page Style                                     */
+/**************************************/
+  .tomostatus{ margin-top:  10px; }
+  .detailsb{ width: 350px; }
+
+/**************************************/
+/*              Submit Closing Style                             */
+/**************************************/
+.business  .closing-submit{  border-bottom:  2px solid #AFAFAF; margin-bottom: 10px;  }
+.business  .login-registration textarea{  width: 300px;  }
+.business .advance{ padding-top:8px; }
+.closing-submit{ margin: 15px 0 0;overflow: hidden; }
+.closingt{ float: left; margin: 0 5px 20px 0; width: 465px; }
+
+.business .delaylength-wrap{ float: left;width: 160px; }
+.business .delaylength-wrap span{ font-weight: bold; padding:0 0 0 35px; }
+
+.business .nxetopening-wrap{ float: left; }
+
+.business .delay-desc{  clear:both; padding: 10px 0 0 0; }
+.business .time-input input{ width: 65px; }
+span.single_title{ margin-right: 10px; }
+
+#bd_business_listing .detail-ads{ clear:both; width:100%;padding-top:20px; }
+#bd_business_listing .detail-ads h3 { float: left; width: 150px; clear:both; padding: 0; margin: 0 !important; font-size: 12px !important; text-transform: capitalize; }
+.block1{ overflow: hidden;   }
+.bd_business_history h2{ border-bottom: 2px solid #AFAFAF; padding-bottom: 10px; }
+.bd_business_history .business-status{ border-bottom: 1px solid; }
+.bd_business_history .edit-link{ float: left; font-size: 12px; }
+.listing-title{ float: left; font-size: 25px; font-weight: bold; width: 475px; }
+
+.bd_business_history_header span{ float: left; font-weight: bold; font-size: 15px; }
+.bd_business_history_header span.date{  float: left;margin-right: 10px;width: 180px; }
+.bd_business_history_header span.status{ width: 170px;  }
+.bd_business_history_header span.detials{ overflow: hidden; width: 225px; }
+
+.business-status .date{ float: left;margin-right: 10px;width: 180px; }
+
+.bd_business_history{ overflow: hidden; margin-bottom: 25px;}
+.bd_business_history h2{ font-size: 25px !important; font-weight: bold; }
+
+.block2 .stauts-alert{ margin-bottom: 10px; overflow: hidden;  padding: 10px 0;}
+#bd_manage_business_content .block2 .stauts-alert{padding:0px;}
+#closing_form select{  width: 250px; padding: 10px; }
+#closing_form textarea{  width: 305px; float:left;margin:0 5px 0 0; }
+
+/*********************************/
+/*          Business Listing Style                    */
+/*********************************/
+.wrap-left h1{ margin: 0; }
+.wrap-left p{ padding:  0 !important; }
+
+#bd_disruptionsDiv .date p,
+                    #bd_disruptionsDiv  .status p,
+                                       #bd_disruptionsDiv .details p{ line-height: 14px;margin: 0  0 10px 0 !important; }
+#bd_disruptionsDiv .details p{ height: 15px; line-height: 12px; }                                       
+                                       
+.seperator{ border-bottom: 1px dotted;font-weight: bold; line-height: 22px; }
+.wrap-left{float: left;}
+
+#bd_disruptionsDiv .location{ width:182px; float:left;margin-right: 30px; }
+#bd_disruptionsDiv .status {  float: left;  margin-right: 42px; }
+#bd_disruptionsDiv .details{  float:left;  }
+
+
+#bd_disruptionsDiv .statusblock{ float: left; }
+#bd_disruptionsDiv .status1{ float: left;margin-right: 15px;width: 137px; }
+#bd_disruptionsDiv .status1detail{ float: left;margin-right: 20px;width: 195px; }
+
+
+#bd_disruptionsDiv .locationblock{ float: left;margin-right: 30px;width: 185px; }
+#bd_disruptionsDiv .statusblock {  float: left;  width: 370px; }
+
+#bd_disruptionsDiv .status-container ul li .title a{ line-height: 20px; }
+
+.business-status .location{ float:left;width:185px; }
+.business-status .status {  float: left;width: 170px; }
+.business-status  .details{ float:left; overflow: hidden; width:225px;  }
+
+
+#bd_disruptionsDiv .status-container ul { padding: 0; }          
+#bd_disruptionsDiv .status-container ul li{ border-bottom: 1px solid #AFAFAF;overflow: hidden;padding: 10px 0;}
+#bd_disruptionsDiv .status-container ul li sapn{ padding: 10px; }
+                   #bd_disruptionsDiv .status-container ul li:last-child{ border:none; }
+                   
+#bd_disruptionsDiv .pagination ul li.first, 
+                    #bd_disruptionsDiv.pagination ul li.btn_dis,
+                                        #bd_disruptionsDiv .pagination ul li.currentpage { cursor: text;} 
+                                        
+#bd_disruptionsDiv .status-container{ padding-top: 10px; }
+                   
+#bd_disruptionsDiv label{ display: block; font-weight: bold; }                   
+#bd_disruptionsDiv label.filter{ color: #FF0000; text-transform: uppercase; }
+
+.changeCat{ float: left; padding: 10px 0; margin-right: 20px; }        
+.changeCat select{ padding: 8px;  width: auto;  }        
+.changeCat select.changeCity{ padding: 8px;  width: auto;  text-transform: capitalize; }    
+.changeDate{display:none;}
+.changeCat select.checkt{ width:10px; }                                     
+input.changeTomo{ float: left; }
+.chlabel{ float: left; }
+.chlabelToday{ float:left; width: 60px; margin-right: 5px; margin-top: 20px; }
+.chlabelTomo{ float: left; width: 80px; margin-right: 5px; margin-top: 20px; }
+.chlabelToday .changeToday,
+                   .chlabelTomo .changeTomo{ float: left; margin-right: 5px; }
+
+input.business-search-text{color: #AFAFAF;font-weight: bold;padding: 10px 15px;width: 150px;float: left; }
+.business-search { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #AFAFAF; margin-bottom: 15px;float: left; }
+ #sort{  margin-top: 25px;  }
+ .bdsearch{ margin: 0px; padding-bottom: 0; float: right;}
+
+ 
+ #bd_disruptionsDiv .dot{ cursor: text; }
+.business-status{  overflow: hidden; padding: 8px 0; }
+.business-status .status{ text-transform: capitalize; }
+.business-status:last-child{ border-bottom: none; }
+.business-status h2{ color: #000; }
+.business-status h3{ margin: 0; text-transform: capitalize; color: #000; }
+
+.location h3 a{ font-weight: bold; text-decoration: none; }
+.location h3 a:hover{ text-decoration: underline; }
+
+.status-container{clear: both;margin-bottom: 20px;overflow: hidden;position: relative;z-index: 99; }
+.status-container p{ margin: 0; }
+
+.cat-wrap-rest li{ overflow: hidden;  list-style: none; }
+
+#cat-wrap li { display: inline; margin-right: 30px; }
+
+.catlist span, #cat-wrap { cursor: pointer; display: block; float: left; font-size: 166%; font-weight: bold; margin: 0; padding: 10px; text-transform: uppercase;}
+.catlist span.cat-wrap{   margin: 0  18px; }
+
+
+#bd_disruptions_list .business-sort{ float: right;  }
+.business-sort li{ display: inline; }
+.business-sort a{ border-left: 1px solid #AFAFAF;font-weight: bold;padding: 0 10px; }
+.business-sort .last a{padding: 0 0px 0px 10px !important;}
+.business-sort .first a{ border-left: none; }
+
+#timeofClosure input{ width: 100px;}
+.delaylength-wrap{ float: left;width: 132px; }
+.delaylength-wrap span{ float: left; margin: 10px 10px 0 10px; }
+.delaylength-wrap select,
+.nxetopening-wrap select{ width:100px !important; float: left; }
+.nxetopening-wrap {  float: left;    margin-top: 38px;  width: 119px; }
+p.delay-desc{clear: both;padding: 10px 0; }
+ 
+  #businessHoursDiv .day input{margin:0 5px 0 0 !important; border: none;}
+  #businessHoursDiv { overflow: hidden; }
+ 
+ #normalTime{}
+ #advancedTime{display:none;}
+ #normalDiv{display:none;}
+ .dayDiv{display:none; clear: both; float: left; }
+ 
+.bd_mb_header h2{ color: #DC143C; float: left; font-size: 16px; text-transform: uppercase; }
+.bd_mb_header .bd_mb_h_left{ float: right;  }
+#bd_manage_business_content {   clear: both; margin: 0;  padding: 15px 0 0;}
+#bd_manage_business .more_links{float:left; height: 35px;}
+.bd_mb_header{ border-bottom: 1px solid #E2E2E2; margin-bottom: 10px; overflow: hidden; padding:0 0 20px;}
+#bd_manage_business_content ul{ margin: 0; padding: 0; }
+#bd_manage_business_content li{ list-style: none; margin: 0px; display:none;}
+#bd_manage_business_content li.first{display:block !important;}
+.bd_mb_h_left span{ margin-left: 5px; padding-left: 5px; border-left: 1px solid #E2E2E2; }
+.bd_mb_h_left span:first-child{ border: none; }
+.bd_mb_status, .bd_mb_content_right label,  .bd_mb_content_right a{font-weight: bold; }
+.bd_mb_status{ float: left; width: 205px; }
+.bd_btn a{ padding: 5px;  }
+.bd_mb_content_right{ line-height: 22px; }
+.status_header{ border-bottom: 4px solid #AFAFAF;border-top: 4px solid #AFAFAF;overflow: hidden;padding: 8px 0; }
+
+.catlist li.cat-drop-cont { font-size: 100%; font-weight: bold; padding: 4px 10px; }
+.align-right{ float: right;margin:10px 0px 0px 20px }
+#bd_disruptions_list{ position: relative;}
+.cat-wrap-rest { margin-right: 30px; position: absolute; right: 15px; top: 0; width: auto; z-index: 999;}
+.cat-wrap-rest span.cat-drop { float: right; text-align: right; width: 102px;}
+.cat-wrap-rest ul { background: none repeat scroll 0 0 #4D4D4B; clear: both; padding: 0;}
+#bd_disruptionsDiv h2{ margin: 0px; }
+
+
+#bd_disruptionsDiv p{ margin-bottom: 20px; clear: both;margin:0px 0 10px;  }
+#bd_disruptionsDiv  .status1, 
+                    #bd_disruptionsDiv  .locationblock p{ text-transform: capitalize; }
+
+#bd_disruptionsDiv .title{ float: left;width: 100%; }
+#bd_disruptionsDiv .title h2{ float: left;font-size: 24px !important;font-weight: bold; line-height: 22px !important; margin-bottom: 10px !important;text-transform: uppercase;width: 538px; }
+.san-edit-links{  float: right; width: 90px; margin-top: 20px; }
+.san-edit-links p{  float: left; margin:0 !important; border-left: 1px solid #E2E2E2;}
+.san-edit-links p:first-child{  border-left: none;}
+.san-edit-links a{  text-transform: uppercase; padding: 5px}
+.alert-status{ background: none repeat scroll 0 0 #F0F0F0; clear: both; padding: 15px 10px;margin: 15px 0; }
+
+.business_detail h3{ float: left;width: 130px; font-weight: bold; }
+.business_detail h3 span{ padding:0px 10px; }
+.business-navi{ padding:8px; }
+
+.alert-desc{ padding: 5px 0; overflow: hidden; clear: both; }
+.alert-desc p.desc-line{  float: left;font-weight: normal;margin-right: 10px;text-transform: none;width: 470px;  }
+
+#bd_disruptionsDiv .alert{ float: left; margin-right: 10px; }
+.alert-status input{ text-transform: none; }
+.alert-status p,
+#bd_disruptionsDiv .alert,
+.alert-desc span { text-transform: capitalize; font-weight: bold; }
+.status-line{ color:#FF0000; }
+ul.detail-ads{ overflow: hidden; line-height: 22px; padding: 0; }        
+.detail-ads .bd_days{ margin-right: 5px; }        
+.business_detail{ margin: 10px; }
+
+#bd_business_manage_listing    .title h2 {   width: 425px;}           
+#bd_business_manage_listing    .san-edit-links { width: auto; margin-top: 0; }
+
+#business .registration_wrap{ width: 310px;  }
+#login_form p.site-line{ font-weight: bold;padding: 10px 0; }
+.sanerror{ color: #FF0000; font-weight: bold; }
+.bd-success-message{ font-weight: bold; }
+
+#normalDiv { cursor: pointer; float: left; font-size: 10px; font-weight: normal; margin-top: 16px; text-decoration: none;}
+
+#advancedDiv { cursor: pointer; float: left; font-size: 10px; font-weight: normal; padding-top: 16px;  text-decoration: none;}
+#advancedDiv:hover, #normalDiv:hover{  text-decoration: underline; }
+
+#normalTime select{margin:10px;}
+
+.regselect {  padding: 10px;  width: 250px; }
+#advancedTime select, #normalTime select {  padding: 10px;  margin:10px 10px 10px 0;  width: 108px; }
+.opening-time {  float: left;  width: 200px; }
+#normalTime {  clear: both; }
+.bd_list_city {   line-height: 10px;   margin: 0;   padding: 0;}
+.bd_list_city a{font-size:11px;font-weight:normal !important;}
+ul.detail-ads li{  list-style:none; }
+
+/* Closings page css */ 
+#bd_closings_alerts .subtxt{ font-size:0.75em; }
+#bd_closings_alerts .starttime, 
+                    #bd_closings_alerts .endtime { width:108px !important; padding: 10px 5px !important; }
+
+
+.allday span{ margin-top:47px;}
+#statusTemplate{ display:none;}
+#closed,
+                   #delayed,
+                                       #earlydismissal{margin:10px 10px 10px 0;border:1px solid #eee; padding:10px 10px 20px 10px;}
+
+.charCount{ clear: both; float: left; }
+
+.bd_business_history_content{list-style:none;padding:0px; margin:10px 0 0 0;width:100%;}
+
+.bd_business_history_content span.date{ float: left;margin-right: 20px;width: 170px; }
+.bd_business_history_content span.status{
+
+}
+
+.bd_business_history_content{    display: block;  float: left;}
+.bd_business_history_content li{padding:0 0 0 0;clear:both;list-style:none;margin:0px 0 0 0;}
+.clear{clear:both;}
+.detail-ads label{ font-weight:bold;}
+.bd_list_contact{margin:10px 0 0 0;}
+
+
+#todayChangeStatus,#tomorrowChangeStatus{width: 150px !important;clear:both !important;padding: 10px;}
+
+.dateHolder{clear:both;display:block;height: 40px;}
+
+.dateHolder label{ float:left !important; }
+
+.dateHolder input{background: none repeat scroll 0 0 transparent;    border: 0 solid #000000 !important;   padding: 0;  width: 90px !important;  margin:18px 0 0 15px !important; }
+
+.cdate input{background: none repeat scroll 0 0 transparent;    border: 0 solid #000000 !important;   padding: 0;  width: 90px !important;  margin:18px 0 0 15px !important; }
+
+.allday input, .allday span{ width:auto !important;float:left !important; padding: 0;}
+.allday input{ margin:10px 5px 0 0 !important;}
+
+.allday span{margin:8px 5px 0 0 !important;}
+
+.cdate{ width:165px; margin: 0 20px 0 0;}
+.cfrom,
+                    .cTo,
+                                        .cdate,
+                                                            .allday{ float:left !important;}
+.allday{ margin: 10px 0 0 0; }
+.allday{ #margin: 0; }
+H1.legcymig{ #line-height: 40px; }
+
+#ttodayselctholder{ float:left;}
+
+.gholder .otime,
+                   .gholder .ctime{ float:left !important;margin: -30px 30px 0 0 !important; }
+
+#today_closed_details,
+                   #tomorrow_closed_details,
+                                       #tomorrow_dismissal_details,
+                                                           #today_dismissal_details,
+                                                                               #today_delayed_details,
+                                                                                                   #tomorrow_delayed_details{ display:none; margin-top: 20px; }
+
+#todayAllFieldsHolder, 
+                   #tomorrowAllFieldsHolder{ overflow: hidden; }
+#todayAllFieldsHolder span{ }
+.delaytime{ width: 60px !important }
+
+#cpreview, #cpreview1 { display:none;background:#f2f2f2; height:auto; padding:0px 10px 0px; top:-15px;left:-42px;width:450px;border:1px solid #ccc;font-size:11px;margin:10px 0 0 0;}
+#cpreview .status_header, #cpreview1 .status_header{ padding:0px;}
+#cpreview .business-status, #cpreview1 .business-status{ padding: 10px 0;}
+#todayAllFieldsHolder{ margin: 0px 0 0 0; overflow: hidden;}
+
+
+/* Registrartion Page Styles */
+.ab_header{border-bottom:1px solid #000;}
+#station-info-state {   margin: 0 0 21px 0;  width: 150px; }
+#formstate {  clear: both; float: left; }
+.zipDiv { float: left;  margin: 0 0 0 26px;  width: 100px !important;}
+.zipDiv input {   width: 100px !important;}
+#timingDiv h4{    float: left;  font-size: 14px;  font-weight: normal;  line-height: 22px; margin: 16px 0 10px; width: 200px;}
+.firsttime{}
+
+/* Single Page Styles */
+#bd_business_listing .edit-link {  height: 20px;  margin: 12px 0 0px;  width:45px; }
+#bd_business_listing .aleft {  padding: 0 10px 0 0; }
+#bd_disruptionsDiv .edit-link a{padding:10px 0 0 10px;text-transform:uppercase;}
+
+#bd_business_listing .block1{ margin-top: 10px; }
+#bd_business_listing .block1 h1 {  float: left;  line-height: 30px; width: 505px; }
+
+.sl_left h4, .detail-ads h4{margin:0px;}
+
+.sl_left h4 span{border-left: 1px solid #CCCCCC; font-size: 12px; font-weight: normal; margin: 0 0 0 7px; padding: 0 0 0 10px; }
+
+.stauts-alert .sl_left {  float: left; width: 100%;  }
+.stauts-alert .sl_left label { font-weight: bold; }
+
+/* updated by madhu 10/12/2011 */
+.stauts-alert .sl_left span, 
+                   .bd_mb_status span{   font-weight: bold;color:red; }
+#bd_manage_business_content .bd_mb_status{margin:10px 0 0;width:300px;}
+#bd_manage_business_content .bd_btn{float:left;}
+#bd_manage_business_content .detail-ads{display:none;}
+.stauts-alert .sl_left p{overflow:hidden;font-size: 14px;}
+.stauts-alert .sl_right {   cursor: pointer;  float: right !important;  margin: 0;  padding: 0; }
+#bd_business_listing .bd_list_addr label,
+                   #bd_manage_business_content .detail-ads label,
+                                       .bd_mb_content label { display: block;   float: left;   width: auto; }
+.detail-ads ul{   list-style:none;padding:0px;margin:0px; }
+#bd_business_listing .bd_list_addr span, #bd_manage_business_content .detail-ads span{    }
+#bd_business_listing .bd_list_addr span{width:60px;display:inline-block}
+.bd_business_history { margin: 20px 0;padding: 0 5px; }
+#bd_manage_business_content .bd_business_history {   margin: 4px 0;}
+.bd_business_history h1{font-weight:bold;line-height:30px;}
+.bd_business_history_header {border-bottom: 3px solid; border-top: 3px solid; margin: 20px 0 0; padding: 10px 0;}
+.bd_business_history_header span{ }
+.submitDiv{ clear: both; margin: 25px 0 0; float: left; }
+#validateUsername img{margin:5px;}
+#validateUsername{margin-left:10px;}
+
+.business-keyword-search{ background-image: url("../images/search-icon.png");background-position: 8px 8px;background-repeat: no-repeat;width: 37px;height: 37px; }  
+.business-keyword-search:hover {  background-position: 8px 8px !important; }
+#bd_disruptionsDiv .more_links, #bd_business_listing .more_links{float:left;}
+.bd_list_addr{margin-bottom:30px;}
+ul.detail-ads{margin:0;}
+.bd_list_addr label{margin:0 4px 0 0;}
+
+#bd_manage_business_content .bd_list_addr{margin-bottom:0px;}
+#bd_manage_business_content #bd_business_listing{margin:0px 0px 20px 0px;}
+
+#regBusiness{margin:0px 10px 0px 0px !important;}
+
+/* validation class */
+input.standard, textarea.standard { border:1px solid #444;background-color:#666;padding:5px; color:#ddd; font-size:14px;width:300px;text-shadow:1px 1px 1px #000;-moz-border-radius:4px;-webkit-border-radius:4px;}
+input.standard:focus, textarea.standard:focus { color:#fff;background-color:#777;}
+input.standard:active, textarea.standard:active {background-color:#888;}
+input.invalid, textarea.invalid {border:1px solid #444; background-color:#C00;padding:5px;color:#fff; font-size:14px;width:300px;text-shadow:none; -moz-border-radius:4px; -webkit-border-radius:4px;}
+input.invalid:focus, textarea.invalid:focus {background-color:#FCC;color:#000;}
+textarea.standard, textarea.invalid {height:140px;}
+.errorsLyr { color:#c00;}
+.errorsLyr img {vertical-align:top;padding-top:3px;}
+.db_error{  color: red;   font-size: 14px;  margin: 10px 10px 10px 0; }
+#normalTime span, #advancedTime span {  margin: 20px 10px 10px 0; }
+.opentimeTxt {  float: left;  margin: 20px 20px 10px 0;  width: 100px;}
+#pass-strength-result {  background-color: #FFA0A0;  border-color: #F04040 !important;  color: #000000 !important;  font-weight: bold;}
+
+/*****************************/
+/*  Preview Styles                                 */
+/*****************************/
+.previewHolder{ float:left; margin:20px 10px 0 0; }
+.previewHolder .location{width:150px;}
+.previewHolder .status{ width: 120px;}
+.previewHolder .details{ width:100px; }
+.previewID{ height:30px; }
+
+/*****************************/
+/*  Legacy Registration Style           */
+/*****************************/
+.legacy-registration{ padding: 10px; }
+.business-desc span{ color: #FF0000; }
+#legacy-form input{ display: inline-block; }
+
+.success-message{ font-size: 16px;font-weight: bold;padding: 35px 0; }
+.bdlogin-alert{ font-size: 16px;font-weight: bold;padding: 35px 0;text-align: center; }
+
+#legacy-form span.more_links{ float: left;width: auto;margin-left: 15px; margin-top: 10px; height:36px;  }
+                    #legacy-form  span.more_links a{ padding: 9.5px 15px; }
+
+.time-format span{ float: left;margin-right: 5px;width: 60px; font-weight: bold; }
+.time-format{ margin-top: 15px; }
+/*.legacy-name{ color:  #000; }*/
+h1.legcymig{ margin: 0 0 20px 0; }
+
+/*****************************/
+/*  Business Listing Style                   */
+/*****************************/
+#bd_disruptionsDiv span.loader{ border-bottom: 2px solid;float: left;font-weight: bold;margin: 0;overflow: hidden;padding: 35px 0;text-align: center;width: 100%; }
+
+
+/* Validation Style */
+
+.ErrorField { border-color: #D00; color: #D00; background: #FFFFFE;}
+.ErrorField span{ color: #000; }
+
+span.ValidationErrors,
+                   validateUsername { display: inline-block;font-size: 12px;color: #D00; padding-left: 10px;}
+.zipDiv{width:auto !important;}
+/*****************************/
+/*                  ADMIN PANEL                */
+/*****************************/
+.zipCode{ padding: 10px 20px; }
+
+
+
+.default-result {  display: block;   width: 100%;  overflow: hidden; border-bottom: 2px solid; }
+.default-result  li{ list-style: none; }
+
+/* Pagination */
+.resultbg ul{float:right;}
+.resultbg.top { overflow: hidden; }
+.resultbg li.currentpage{ border:1px solid !important;  color:#000; }
+.resultbg li{ float: left; margin: 0 5px 0 0; padding: 5px 8px !important; cursor:pointer;  border:none !important; color:#666; }
+.pbutton{  color: #000 !important; }
+
+
+/* Export CSS */
+a.editbusiness{ background: url("../images/icons/edit.png") no-repeat scroll 0 0 transparent;display: block;float: left;height: 16px;  padding: 0 !important; width: 16px; margin-left:5px; }                   
+a.deletebusiness{ background: url("../images/icons/delete.png") no-repeat scroll 0 0 transparent;display: block;float: left;height: 16px;overflow: hidden;  padding: 0 !important; width: 16px; margin-left:8px; }                   
+.wrap-right{ float: right; overflow: hidden; }
+a.export{ background: url("../images/icons/excel.png") no-repeat scroll 42px 0 transparent;display: block;float: left;font-weight: bold;height: 25px;padding: 0 !important;width: 67px; }                   
+a.print{ background: url("../images/icons/print.png") no-repeat scroll 32px 0 transparent;display: block;float: left;font-weight: bold;height: 16px;overflow: hidden;padding: 0 !important;width: 48px; }                   
+.export-option{ float: right;margin-top: 16px;overflow: hidden; }
+.backDiv{margin:0px 0px 10px 0px;}
+
+.todayDiv, 
+                    .tomorrowDiv {  overflow: hidden; padding: 10px 10px 10px 0px; }
+                    
+.detailsDiv{margin:9px 0 0 !important;}
+
+.cdate label{margin:5px 0 !important;}
+.submitc{ width: 528px; }
+
+span.bdresendlink{ cursor:pointer; text-decoration: none; }
+                    span.bdresendlink:hover{ text-decoration: underline; }
+                    
+/** RESEND EMAIL STYLE **/                    
+.resend-loader{ text-align: center; width: 100%; display: block; }                    
+.resend-loader img{ text-align: center; }                    
+
+input#bd_resend_usermail{ border: solid 1px; }
+.bdresend-site-line{ margin-bottom: 20px; }
+#bd_resendmail_form input{ margin-left: 10px; }
+#bd_resendmail_form .ValidationErrors{ bottom: 38px; left: 102px; position: absolute; }
