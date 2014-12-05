@@ -3,9 +3,9 @@
 Plugin Name: Business Disruptions
 Version: 1.0
 Description: Business Disruptions Plugin to create and Maintain disruptions for the business.
-Author: INKONIQ
-Contributors: Sandeep Kumar, Madhu Sudhan, Hareesh P
-Author URI: http://www.inkoniq.com
+Author: S KUMAR
+Contributors: S KUMAR
+Author URI: http://sandeepthemaster.wordpress.com
 */
 
 
